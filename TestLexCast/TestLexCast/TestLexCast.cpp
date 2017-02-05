@@ -112,7 +112,6 @@ bool getTypes(const std::string& func, std::string& src_type, std::string& targe
 }
 #endif
 
-// This function does nothing but throw exception.
 template <typename Target, typename Source>
 inline Target lexical_cast_wrapper(const Source &arg)
 {
